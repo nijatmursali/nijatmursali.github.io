@@ -16,12 +16,12 @@ var flag = true;
 var pointsArray = [];
 var colorsArray = [];
 
-var vertices = [ //work on these parameters for checking for vertices and etc
+var vertices = [ // work on these
     vec4( -0.5, -0.5,  0.5, 1.0 ),
     vec4( -0.5,  0.5,  0.5, 1.0 ),
     vec4( 0.5,  0.5,  0.5, 1.0 ),
-    vec4( 0.5, -0.5,  0.5, 1.0 ), 
-    vec4( -1, -0.5, -0.5, 1.0 ),
+    vec4( 0.5, -0.5,  0.5, 1.0 ),
+    vec4( -0.5, -0.5, -0.5, 1.0 ),
     vec4( -0.5,  0.5, -0.5, 1.0 ),
     vec4( 0.5,  0.5, -0.5, 1.0 ),
     vec4( 0.5, -0.5, -0.5, 1.0 )
