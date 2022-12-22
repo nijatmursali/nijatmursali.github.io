@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.satisfy {
+  font-family: "Satisfy", cursive;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.active {
+  border-bottom: 3px solid rgb(239 68 68);
+}
